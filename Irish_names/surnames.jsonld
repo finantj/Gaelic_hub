@@ -1,0 +1,123 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Surnames Dataset",
+    "description": "A dataset of surnames in English and Irish, grouped into clusters.",
+    "clusters": [
+        {
+            "cluster_id": 1,
+            "surnames": [
+                {
+                    "lang": "ga",
+                    "text": "Achaorainn",
+                    "anchor": "Achaorainn"
+                },
+                {
+                    "lang": "en",
+                    "text": "Ahern",
+                    "anchor": "Ahern"
+                },
+                {
+                    "lang": "ga",
+                    "text": "Ó Heachthigheirn",
+                    "anchor": "Heachthigheirn"
+                },
+                {
+                    "lang": "en",
+                    "text": "Hearn",
+                    "anchor": "Hearn"
+                },
+                {
+                    "lang": "en",
+                    "text": "Hearne",
+                    "anchor": "Hearne"
+                },
+                {
+                    "lang": "en",
+                    "text": "Aherne",
+                    "anchor": "Aherne"
+                },
+                {
+                    "lang": "ga",
+                    "text": "Ó hEachairn",
+                    "anchor": "Eachairn"
+                },
+                {
+                    "lang": "en",
+                    "text": "Ahearn",
+                    "anchor": "Ahearn"
+                },
+                {
+                    "lang": "en",
+                    "text": "Ahearne",
+                    "anchor": "Ahearne"
+                }
+            ]
+        },
+        {
+            "cluster_id": 2,
+            "surnames": [
+                {
+                    "lang": "en",
+                    "text": "Achison",
+                    "anchor": "Achison"
+                },
+                {
+                    "lang": "en",
+                    "text": "Atchison",
+                    "anchor": "Atchison"
+                }
+            ]
+        },
+        {
+            "cluster_id": 3,
+            "surnames": [
+                {
+                    "lang": "en",
+                    "text": "Adams",
+                    "anchor": "Adams"
+                },
+                {
+                    "lang": "ga",
+                    "text": "Mac Conámha",
+                    "anchor": "Conámha"
+                }
+            ]
+        },
+        {
+            "cluster_id": 4,
+            "surnames": [
+                {
+                    "lang": "ga",
+                    "text": "Ághas",
+                    "anchor": "Ághas"
+                },
+                {
+                    "lang": "en",
+                    "text": "Ashe",
+                    "anchor": "Ashe"
+                },
+                {
+                    "lang": "ga",
+                    "text": "Ás",
+                    "anchor": "Ás"
+                }
+            ]
+        },
+        {
+            "cluster_id": 5,
+            "surnames": [
+                {
+                    "lang": "en",
+                    "text": "Agnew",
+                    "anchor": "Agnew"
+                },
+                {
+                    "lang": "ga",
+                    "text": "Ó Gnímh",
+                    "anchor": "Gnímh"
+                }
+            ]
+        }
+    ]
+}
