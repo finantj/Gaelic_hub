@@ -32,6 +32,7 @@ jobs:
 
       - name: Comment PR with deployment URL
         uses: actions/github-script@v7
+        if: steps.vercel-deploy.outputs.preview-url
         with:
           script: |
             const deploymentUrl = '${{ steps.vercel-deploy.outputs.preview-url }}';
@@ -43,8 +44,18 @@ jobs:
             
             This preview deployment will be updated automatically when you push new commits to this pull request.
             
+            ### Collections Available:
+            - Irish Names
+            - Annals of Ireland  
+            - Bardic Poetry
+            - Excavations
+            - National Monuments
+            - NMI Artifacts & Materials
+            - Fiants
+            - Townlands
+            
             ---
-            *Deployed via Vercel*`;
+            *Deployed via Vercel • Built from commit ${{ github.sha }}*`;
             
             github.rest.issues.createComment({
               issue_number: context.issue.number,
