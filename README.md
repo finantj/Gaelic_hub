@@ -19,6 +19,7 @@ The repository now includes a web interface that provides easy access to all col
 - **NMI Materials**: Material culture data from the National Museum of Ireland
 - **Fiants**: Irish Fiants of the Tudor Sovereigns collection
 - **Townlands**: Irish townland names and geographical data
+- **OIR Recogito Workspace**: Interactive annotation tool for exploring and tagging people, places, and events in JSON-LD texts
 
 ## Development
 
