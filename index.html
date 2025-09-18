@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaelic Hub - Medieval Irish Sources</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #2c5530;
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 0.5rem;
+        }
+        .collections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .collection-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 4px solid #2c5530;
+        }
+        .collection-card h3 {
+            margin-top: 0;
+            color: #2c5530;
+        }
+        .collection-card a {
+            color: #2c5530;
+            text-decoration: none;
+        }
+        .collection-card a:hover {
+            text-decoration: underline;
+        }
+        .description {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gaelic Hub</h1>
+        <div class="subtitle">A store for Gaelic medieval sources and linkages</div>
+    </header>
+
+    <main>
+        <div class="description">
+            <p>This repository is a persistent location for a number of types of information that will be utilized in a research project that will link a number of different type of open data sets related to medieval Ireland, more particularly Gaelic Ireland in the period 1100-1500.</p>
+            <p>The sources in this repository come from a number of data sets available online, and will reference those sites accordingly.</p>
+        </div>
+
+        <div class="collections">
+            <div class="collection-card">
+                <h3>Irish Names</h3>
+                <p>Collection of Gaelic surnames and their historical context.</p>
+                <a href="Irish_names/index.xml">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>Annals of Ireland</h3>
+                <p>Historical chronicles and annals from medieval Ireland.</p>
+                <a href="annals_ireland/">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>Bardic Poetry</h3>
+                <p>Collection of medieval Irish bardic poetry and literary sources.</p>
+                <a href="bardicpoetry/">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>Excavations</h3>
+                <p>Archaeological excavation data from medieval Irish sites.</p>
+                <a href="excavations/">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>National Monuments</h3>
+                <p>Records of Irish national monuments from the medieval period.</p>
+                <a href="National_Monuments/index.xml">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>NMI Artifacts</h3>
+                <p>National Museum of Ireland artifact collections.</p>
+                <a href="NMI_artifacts/index.xml">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>NMI Materials</h3>
+                <p>Material culture data from the National Museum of Ireland.</p>
+                <a href="NMI_materials/index.xml">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>Fiants</h3>
+                <p>Irish Fiants of the Tudor Sovereigns collection.</p>
+                <a href="fiants/index.xml">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>Townlands</h3>
+                <p>Irish townland names and geographical data.</p>
+                <a href="townlands/index.xml">View Collection →</a>
+            </div>
+
+            <div class="collection-card">
+                <h3>OIR Recogito Workspace</h3>
+                <p>Interactive annotation tool for exploring and tagging people, places, and events in JSON-LD texts using Recogito.</p>
+                <a href="oir/recogito-web/">Launch Workspace →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Gaelic Hub - Medieval Irish Sources Repository</p>
+        <p>Period: 1100-1500 CE</p>
+    </footer>
+</body>
+</html>

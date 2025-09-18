@@ -1,0 +1,27 @@
+{
+  "name": "gaelic-hub",
+  "version": "1.0.0",
+  "description": "A store for Gaelic medieval sources and linkages",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve -s .",
+    "build": "echo 'Static site - no build required'",
+    "start": "serve -s ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finantj/Gaelic_hub.git"
+  },
+  "keywords": [
+    "gaelic",
+    "medieval",
+    "ireland",
+    "history",
+    "sources"
+  ],
+  "author": "finantj",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
