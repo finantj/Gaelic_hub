@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OIR Recogito Workspace</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/recogito-js@1.8.2/dist/recogito.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>OIR Recogito Workspace</h1>
+      <p>
+        Explore the JSON-LD texts in this repository and tag <strong>people</strong>,
+        <strong>places</strong>, and <strong>events</strong> without leaving your
+        browser. Choose one of the built-in datasets or load your own file and
+        start annotating with Recogito.
+      </p>
+    </header>
+
+    <main>
+      <section id="controls" aria-label="Dataset controls">
+        <div class="control-row">
+          <label class="control">
+            <span>Built-in dataset</span>
+            <select id="dataset-select" aria-label="Select a built-in dataset"></select>
+          </label>
+          <label class="control">
+            <span>Load local JSON-LD</span>
+            <input
+              type="file"
+              id="file-input"
+              accept=".json,.jsonld,.ldjson,application/ld+json"
+              aria-label="Upload a local JSON-LD file"
+            />
+          </label>
+          <label class="control">
+            <span>Filter entries</span>
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Type to filter by year or text"
+              aria-label="Filter entries"
+            />
+          </label>
+        </div>
+        <div class="control-row">
+          <button id="reset-btn" type="button">Clear annotations</button>
+          <button id="export-btn" type="button" disabled>Export annotations</button>
+        </div>
+        <p class="hint">
+          Tip: annotations are stored in your browser memory. Use the export button
+          to save them as JSON for further processing.
+        </p>
+      </section>
+
+      <section id="summary" aria-label="Annotation summary">
+        <h2>Annotation summary</h2>
+        <p id="dataset-label" class="dataset-label"></p>
+        <div id="summary-content" class="summary-content">
+          <p class="placeholder">No annotations yet.</p>
+        </div>
+      </section>
+
+      <section id="entries" aria-live="polite" aria-label="Dataset entries"></section>
+    </main>
+
+    <footer>
+      <p>
+        Powered by <a href="https://recogito.pelagios.org/" target="_blank" rel="noopener">Recogito</a>
+        and <a href="https://github.com/pelagios/recogito-js" target="_blank" rel="noopener">RecogitoJS</a>.
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@recogito/recogito-js@1.8.2/dist/recogito.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
